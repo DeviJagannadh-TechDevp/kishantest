@@ -1,0 +1,119 @@
+<DOCTYPE html>
+<html>
+<style>
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+section
+{
+	width: 100%;
+	height: 100vh;
+	background: url(bg.jpg);
+	background-size: cover;
+}
+.menu
+{
+	position: absolute;
+	width: 100%;
+	background: rgba(255,255,255,.5);
+	padding: 0 100px;
+	box-sizing: border-box;
+	border-bottom: 1px solid rgba(0,0,0,.2);
+}
+.menu img
+{
+	float: left;
+	width: 84px;
+}
+nav
+{
+	position: relative;
+	float: right;
+}
+nav ul
+{
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+nav ul li
+{
+	list-style: none;
+}
+nav ul li a
+{
+	display: block;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 33px 20px;
+	text-decoration: none;
+}
+nav ul li a:hover
+{
+	background: #184771;
+	color: #fff;
+}
+nav ul li ul
+{
+	display: block;
+	background: rgba(255,255,255,.5);
+	min-width: 250px;
+	position: absolute;
+	margin-top: 1px;
+	box-shadow: 0 2px 5px rgba(0,0,0,.5);
+	opacity: 0;
+	visibility: hidden;
+	transition: .5s;
+	transform: translateY(40px);
+}
+nav ul li:hover ul
+{
+	opacity: 1;
+	visibility: visible;
+	transform: translateY(0px);
+}
+nav ul li ul li a
+{
+	padding: 10px;
+}
+</style>
+<div class="menu">
+	<a href="#" class="brand"><img src="Logo.jpg"></a>
+        <body background="main.jpg"></body>
+	<nav>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Reservation</a>
+				<ul>
+					<li><a href="C:\Users\hp\OneDrive\Desktop\kishan\Railway.html"><abbr title="Railway">Railway</abbr></a></li>
+					<li><a href="C:\Users\hp\OneDrive\Desktop\kishan\road.html"><abbr title="Roadway">Roadway</abbr></a></li>
+					<li><a href="C:\Users\hp\OneDrive\Desktop\kishan\airway.html"><abbr title="Airline">Airline</abbr></a></li>
+
+				</ul>
+			</li>
+			<li><a href="#">Hotel</a>
+                               <ul>
+					<li><a href="#">Fivestar</a></li>
+					<li><a href="#">Threestar</a></li>
+					<li><a href="#">Normal</a></li>
+				</ul>
+
+                        </li>
+			<li><a href="#">Food</a>
+				<ul>
+					<li><a href="#">Near by hotel 1</a></li>
+					<li><a href="#">Near by hotel 2</a></li>
+					<li><a href="#">Near by hotel 3</a></li>
+					<li><a href="#">Near by hotel 4</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Contact</a></li>
+                        <li><a href="#">Feed back</a></li>
+		</ul>
+	</nav>
+</div>
+<section></section>
+</html>
